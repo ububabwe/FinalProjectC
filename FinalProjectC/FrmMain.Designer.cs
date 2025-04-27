@@ -55,10 +55,10 @@ namespace cc103InventoryFinalProj
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Khaki;
-            this.panel1.Location = new System.Drawing.Point(290, 62);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(300, 62);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(910, 631);
+            this.panel1.Size = new System.Drawing.Size(1029, 427);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -70,15 +70,14 @@ namespace cc103InventoryFinalProj
             this.panel2.Controls.Add(this.btnMaximized);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1329, 62);
             this.panel2.TabIndex = 1;
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(1131, 3);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Location = new System.Drawing.Point(1266, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(60, 52);
             this.btnClose.TabIndex = 2;
@@ -88,8 +87,8 @@ namespace cc103InventoryFinalProj
             // 
             // btnMinimized
             // 
-            this.btnMinimized.Location = new System.Drawing.Point(993, 2);
-            this.btnMinimized.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnMinimized.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimized.Location = new System.Drawing.Point(1139, 2);
             this.btnMinimized.Name = "btnMinimized";
             this.btnMinimized.Size = new System.Drawing.Size(57, 55);
             this.btnMinimized.TabIndex = 0;
@@ -99,8 +98,8 @@ namespace cc103InventoryFinalProj
             // 
             // btnMaximized
             // 
-            this.btnMaximized.Location = new System.Drawing.Point(1059, 2);
-            this.btnMaximized.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnMaximized.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximized.Location = new System.Drawing.Point(1202, 2);
             this.btnMaximized.Name = "btnMaximized";
             this.btnMaximized.Size = new System.Drawing.Size(63, 54);
             this.btnMaximized.TabIndex = 1;
@@ -123,9 +122,7 @@ namespace cc103InventoryFinalProj
             this.panel3.Controls.Add(this.btnHome);
             this.panel3.Controls.Add(this.lblUser);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.ForeColor = System.Drawing.SystemColors.InfoText;
             this.panel3.Location = new System.Drawing.Point(0, 62);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(300, 427);
             this.panel3.TabIndex = 2;
@@ -134,7 +131,6 @@ namespace cc103InventoryFinalProj
             // 
             this.button1.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_06_1751131;
             this.button1.Location = new System.Drawing.Point(56, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(186, 111);
             this.button1.TabIndex = 1;
@@ -144,11 +140,9 @@ namespace cc103InventoryFinalProj
             // 
             this.btnaboutus.BackColor = System.Drawing.Color.Khaki;
             this.btnaboutus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnaboutus.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnaboutus.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_06_180641;
             this.btnaboutus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnaboutus.Location = new System.Drawing.Point(21, 518);
-            this.btnaboutus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnaboutus.Name = "btnaboutus";
             this.btnaboutus.Size = new System.Drawing.Size(258, 40);
             this.btnaboutus.TabIndex = 11;
@@ -160,7 +154,6 @@ namespace cc103InventoryFinalProj
             // 
             this.btnExit.BackColor = System.Drawing.Color.Khaki;
             this.btnExit.Location = new System.Drawing.Point(4, 591);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(112, 35);
             this.btnExit.TabIndex = 10;
@@ -172,11 +165,9 @@ namespace cc103InventoryFinalProj
             // 
             this.btnSales.BackColor = System.Drawing.Color.Khaki;
             this.btnSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSales.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnSales.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183807;
             this.btnSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSales.Location = new System.Drawing.Point(18, 462);
-            this.btnSales.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSales.Name = "btnSales";
             this.btnSales.Size = new System.Drawing.Size(261, 46);
             this.btnSales.TabIndex = 9;
@@ -188,11 +179,9 @@ namespace cc103InventoryFinalProj
             // 
             this.btnCustomers.BackColor = System.Drawing.Color.Khaki;
             this.btnCustomers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomers.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCustomers.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183639;
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomers.Location = new System.Drawing.Point(16, 406);
-            this.btnCustomers.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCustomers.Name = "btnCustomers";
             this.btnCustomers.Size = new System.Drawing.Size(262, 46);
             this.btnCustomers.TabIndex = 8;
@@ -204,11 +193,9 @@ namespace cc103InventoryFinalProj
             // 
             this.btnPurchases.BackColor = System.Drawing.Color.Khaki;
             this.btnPurchases.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPurchases.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnPurchases.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183443;
             this.btnPurchases.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPurchases.Location = new System.Drawing.Point(16, 352);
-            this.btnPurchases.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPurchases.Name = "btnPurchases";
             this.btnPurchases.Size = new System.Drawing.Size(262, 45);
             this.btnPurchases.TabIndex = 7;
@@ -220,11 +207,9 @@ namespace cc103InventoryFinalProj
             // 
             this.btnCustomerregistration.BackColor = System.Drawing.Color.Khaki;
             this.btnCustomerregistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomerregistration.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCustomerregistration.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183231;
             this.btnCustomerregistration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomerregistration.Location = new System.Drawing.Point(21, 300);
-            this.btnCustomerregistration.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCustomerregistration.Name = "btnCustomerregistration";
             this.btnCustomerregistration.Size = new System.Drawing.Size(260, 43);
             this.btnCustomerregistration.TabIndex = 6;
@@ -236,11 +221,9 @@ namespace cc103InventoryFinalProj
             // 
             this.btnProduct.BackColor = System.Drawing.Color.Khaki;
             this.btnProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProduct.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnProduct.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_181908;
             this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProduct.Location = new System.Drawing.Point(18, 243);
-            this.btnProduct.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(261, 48);
             this.btnProduct.TabIndex = 5;
@@ -252,11 +235,9 @@ namespace cc103InventoryFinalProj
             // 
             this.btnHome.BackColor = System.Drawing.Color.Khaki;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnHome.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_180120;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(18, 183);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(261, 51);
             this.btnHome.TabIndex = 4;
@@ -269,7 +250,6 @@ namespace cc103InventoryFinalProj
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.Location = new System.Drawing.Point(92, 126);
-            this.lblUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(110, 25);
             this.lblUser.TabIndex = 3;
@@ -280,11 +260,10 @@ namespace cc103InventoryFinalProj
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1329, 489);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmMain";
             this.Text = "FrmMain";
             this.panel2.ResumeLayout(false);
@@ -295,7 +274,6 @@ namespace cc103InventoryFinalProj
         }
 
         #endregion
-
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMaximized;
@@ -312,7 +290,5 @@ namespace cc103InventoryFinalProj
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnaboutus;
         private System.Windows.Forms.Button button1;
-
     }
-    
 }
