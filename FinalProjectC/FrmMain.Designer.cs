@@ -1,4 +1,8 @@
-﻿namespace cc103InventoryFinalProj
+﻿using System.Drawing;
+using System;
+using System.Windows.Forms;
+
+namespace cc103InventoryFinalProj
 {
     partial class FrmMain
     {
@@ -51,9 +55,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Khaki;
-            this.panel1.Location = new System.Drawing.Point(193, 40);
+            this.panel1.Location = new System.Drawing.Point(290, 62);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(607, 410);
+            this.panel1.Size = new System.Drawing.Size(910, 631);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -65,15 +70,17 @@
             this.panel2.Controls.Add(this.btnMaximized);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 40);
+            this.panel2.Size = new System.Drawing.Size(1329, 62);
             this.panel2.TabIndex = 1;
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(754, 2);
+            this.btnClose.Location = new System.Drawing.Point(1131, 3);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(40, 34);
+            this.btnClose.Size = new System.Drawing.Size(60, 52);
             this.btnClose.TabIndex = 2;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -81,9 +88,10 @@
             // 
             // btnMinimized
             // 
-            this.btnMinimized.Location = new System.Drawing.Point(662, 1);
+            this.btnMinimized.Location = new System.Drawing.Point(993, 2);
+            this.btnMinimized.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMinimized.Name = "btnMinimized";
-            this.btnMinimized.Size = new System.Drawing.Size(38, 36);
+            this.btnMinimized.Size = new System.Drawing.Size(57, 55);
             this.btnMinimized.TabIndex = 0;
             this.btnMinimized.Text = "-";
             this.btnMinimized.UseVisualStyleBackColor = true;
@@ -91,9 +99,10 @@
             // 
             // btnMaximized
             // 
-            this.btnMaximized.Location = new System.Drawing.Point(706, 1);
+            this.btnMaximized.Location = new System.Drawing.Point(1059, 2);
+            this.btnMaximized.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaximized.Name = "btnMaximized";
-            this.btnMaximized.Size = new System.Drawing.Size(42, 35);
+            this.btnMaximized.Size = new System.Drawing.Size(63, 54);
             this.btnMaximized.TabIndex = 1;
             this.btnMaximized.Text = "🗖";
             this.btnMaximized.UseVisualStyleBackColor = true;
@@ -115,17 +124,19 @@
             this.panel3.Controls.Add(this.lblUser);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.panel3.Location = new System.Drawing.Point(0, 40);
+            this.panel3.Location = new System.Drawing.Point(0, 62);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 410);
+            this.panel3.Size = new System.Drawing.Size(300, 427);
             this.panel3.TabIndex = 2;
             // 
             // button1
             // 
             this.button1.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_06_1751131;
-            this.button1.Location = new System.Drawing.Point(37, 7);
+            this.button1.Location = new System.Drawing.Point(56, 11);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 72);
+            this.button1.Size = new System.Drawing.Size(186, 111);
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -136,9 +147,10 @@
             this.btnaboutus.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnaboutus.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_06_180641;
             this.btnaboutus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnaboutus.Location = new System.Drawing.Point(14, 337);
+            this.btnaboutus.Location = new System.Drawing.Point(21, 518);
+            this.btnaboutus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnaboutus.Name = "btnaboutus";
-            this.btnaboutus.Size = new System.Drawing.Size(172, 26);
+            this.btnaboutus.Size = new System.Drawing.Size(258, 40);
             this.btnaboutus.TabIndex = 11;
             this.btnaboutus.Text = "About us";
             this.btnaboutus.UseVisualStyleBackColor = false;
@@ -147,9 +159,10 @@
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.Khaki;
-            this.btnExit.Location = new System.Drawing.Point(3, 384);
+            this.btnExit.Location = new System.Drawing.Point(4, 591);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(112, 35);
             this.btnExit.TabIndex = 10;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -162,9 +175,10 @@
             this.btnSales.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnSales.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183807;
             this.btnSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSales.Location = new System.Drawing.Point(12, 300);
+            this.btnSales.Location = new System.Drawing.Point(18, 462);
+            this.btnSales.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSales.Name = "btnSales";
-            this.btnSales.Size = new System.Drawing.Size(174, 30);
+            this.btnSales.Size = new System.Drawing.Size(261, 46);
             this.btnSales.TabIndex = 9;
             this.btnSales.Text = "Sales";
             this.btnSales.UseVisualStyleBackColor = false;
@@ -177,12 +191,14 @@
             this.btnCustomers.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCustomers.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183639;
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomers.Location = new System.Drawing.Point(11, 264);
+            this.btnCustomers.Location = new System.Drawing.Point(16, 406);
+            this.btnCustomers.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCustomers.Name = "btnCustomers";
-            this.btnCustomers.Size = new System.Drawing.Size(175, 30);
+            this.btnCustomers.Size = new System.Drawing.Size(262, 46);
             this.btnCustomers.TabIndex = 8;
             this.btnCustomers.Text = "Customers";
             this.btnCustomers.UseVisualStyleBackColor = false;
+            this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
             // 
             // btnPurchases
             // 
@@ -191,9 +207,10 @@
             this.btnPurchases.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnPurchases.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183443;
             this.btnPurchases.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPurchases.Location = new System.Drawing.Point(11, 229);
+            this.btnPurchases.Location = new System.Drawing.Point(16, 352);
+            this.btnPurchases.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPurchases.Name = "btnPurchases";
-            this.btnPurchases.Size = new System.Drawing.Size(175, 29);
+            this.btnPurchases.Size = new System.Drawing.Size(262, 45);
             this.btnPurchases.TabIndex = 7;
             this.btnPurchases.Text = "      Purchases";
             this.btnPurchases.UseVisualStyleBackColor = false;
@@ -206,9 +223,10 @@
             this.btnCustomerregistration.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCustomerregistration.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_183231;
             this.btnCustomerregistration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomerregistration.Location = new System.Drawing.Point(14, 195);
+            this.btnCustomerregistration.Location = new System.Drawing.Point(21, 300);
+            this.btnCustomerregistration.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCustomerregistration.Name = "btnCustomerregistration";
-            this.btnCustomerregistration.Size = new System.Drawing.Size(173, 28);
+            this.btnCustomerregistration.Size = new System.Drawing.Size(260, 43);
             this.btnCustomerregistration.TabIndex = 6;
             this.btnCustomerregistration.Text = "Customer Registration";
             this.btnCustomerregistration.UseVisualStyleBackColor = false;
@@ -221,9 +239,10 @@
             this.btnProduct.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnProduct.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_181908;
             this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProduct.Location = new System.Drawing.Point(12, 158);
+            this.btnProduct.Location = new System.Drawing.Point(18, 243);
+            this.btnProduct.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(174, 31);
+            this.btnProduct.Size = new System.Drawing.Size(261, 48);
             this.btnProduct.TabIndex = 5;
             this.btnProduct.Text = "Product";
             this.btnProduct.UseVisualStyleBackColor = false;
@@ -236,9 +255,10 @@
             this.btnHome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnHome.Image = global::cc103InventoryFinalProj.Properties.Resources.Screenshot_2025_04_04_180120;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(12, 119);
+            this.btnHome.Location = new System.Drawing.Point(18, 183);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(174, 33);
+            this.btnHome.Size = new System.Drawing.Size(261, 51);
             this.btnHome.TabIndex = 4;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = false;
@@ -247,22 +267,24 @@
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(61, 82);
+            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Location = new System.Drawing.Point(92, 126);
+            this.lblUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(72, 15);
+            this.lblUser.Size = new System.Drawing.Size(110, 25);
             this.lblUser.TabIndex = 3;
             this.lblUser.Text = "Username";
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1329, 489);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmMain";
             this.Text = "FrmMain";
             this.panel2.ResumeLayout(false);
@@ -290,5 +312,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnaboutus;
         private System.Windows.Forms.Button button1;
+
     }
+    
 }
